@@ -6,12 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Changed
+## [3.1.0] - 2019-07-15
 
-- Add TextBox widget
-    - TextBox is a superset of Paragraph, so Paragraph is deprecated
-    - adds support for a cursor, which can be moved
-    - the `Text` field is now private, replaced with `SetText`, `InsertText`, and `ClearText` methods
+### Added
+
+- Added Tree widget [#237]
 
 ## [3.0.0] - 2019-03-07
 
@@ -122,7 +121,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Rename Par widget to Paragraph
 - Rename MBarChart widget to StackedBarChart
 
+[#237]: https://github.com/gizak/termui/pull/237
 [#126]: https://github.com/gizak/termui/pull/126
 
-[Unreleased]: https://github.com/gizak/termui/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/gizak/termui/compare/v3.1.0...HEAD
+[3.1.0]: https://github.com/gizak/termui/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/gizak/termui/compare/v2.3.0...v3.0.0
