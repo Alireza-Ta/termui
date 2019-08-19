@@ -26,7 +26,7 @@ type Block struct {
 
 	Title      string
 	TitleStyle Style
-
+	HasFocus bool
 	sync.Mutex
 }
 
